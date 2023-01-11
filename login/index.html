@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/emi-reset.css">
+</head>
+
+<body>
+    <section>
+        <H1>Welcome To Our Website</H1>
+    </section>
+    <section>
+        <button id="login-btn" class="Login-btn">Log In</button>
+        <button id="table-data" class="Login-btn">View Table Data</button>
+    </section>
+    <div class="table-data dsp-none">
+        <h2>HTML Table</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Country</th>
+                </tr>
+                <tr>
+                    <th>State</th>
+                </tr>
+                <tr>
+                    <th>City</th>
+                </tr>
+            </thead>
+            <tbody class="data-of-table">
+                <tr class="countery-Section">
+
+                </tr>
+                <tr class="states-Section">
+
+                </tr>
+                <tr class="city-Section">
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="ovelay-model" class="ovelay-model dsp-none">
+        <div class="modal-Content">
+            <div class="Login-form">
+                <div class="user-image">
+                    <img src="images/User-image.png" alt="user image">
+                </div>
+                <label for="uname">Username</label>
+                <input type="text" placeholder="Enter Username" class="input-user" name="uname">
+                <br>
+                <span class="user-error-msg dsp-none"></span>
+                <label for="password">Password</label>
+                <input type="password" placeholder="Enter PassWord" class="input-pass" name="password">
+                <br>
+                <span class="pass-error-msg dsp-none"></span>
+                <input type="submit" value="Sign in" class="sign-in-btn">
+            </div>
+            <div class="btn-form dsp-none">
+                <div class="btn-btn-add">
+                    <button id="drop">ADD</button>
+                </div>
+                <div class="btn-btn-remove">
+                    <button id="drop">REMOVE</button>
+                </div>
+                <div class="btn-btn-total">
+                    <button>TOTAL</button>
+                </div>
+            </div>
+            <div class="drop-down dsp-none">
+                <select name="" id="country" class="country-list">
+                    <option value=""> Select country</option>
+                </select>
+                <br>
+                <select name="" id="statelist" class="state-list">
+                    <option value=""> Select State</option>
+                </select>
+                <br>
+                <select name="" value="select City" id="citylist" class="city-list">
+                    <option value=""> Select City</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+
+</html>

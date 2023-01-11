@@ -1,0 +1,178 @@
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.Login-btn {
+    border-radius: 8px;
+    border: 2px solid lightgreen;
+    background-color: green;
+    color: #fff;
+    padding: 6px 12px;
+}
+
+.dsp-none {
+    display: none;
+}
+
+.dsp-block {
+    display: block;
+}
+
+/* model popup */
+.ovelay-model {
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content */
+.modal-Content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px 50px;
+    border: 1px solid #888;
+    width: max-content;
+    border-radius: 8px;
+}
+
+.Login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-image {
+    margin: 0 auto;
+}
+
+.user-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.Login-form label {
+    font-size: 15px;
+    font-weight: bold;
+    color: #07c10c;
+    margin: 10px 0px;
+}
+
+.input-user,
+.input-pass {
+    border-radius: 4px;
+    border: 1px solid lightgreen;
+    padding: 4px 4px;
+}
+
+.sign-in-btn {
+    margin-top: 15px;
+    display: flex;
+    align-self: center;
+    max-width: 300%;
+    font-size: 18px;
+    padding: 6px 20px;
+    border-radius: 4px;
+    border: 1px solid lime;
+    background-color: limegreen;
+    color: #fff;
+}
+
+.user-error-msg,
+.pass-error-msg {
+    color: red;
+}
+
+/* btn css */
+.btn-btn-add,
+.btn-btn-remove,
+.btn-btn-total {
+    text-align: center;
+    padding: 15px;
+}
+
+.btn-btn-add button,
+.btn-btn-remove button,
+.btn-btn-total button {
+    border-radius: 4px;
+    padding: 15px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: bold;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-btn-add button:hover,
+.btn-btn-remove button:hover,
+.btn-btn-total button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+/* drop Down */
+.country-list,
+.state-list,
+.city-list {
+    min-width: 170px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    background-color: #ff8000;
+    margin: 20px;
+}
+
+/* table */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .countery-Section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .data-of-table{
+    display: flex;
+  }
+  thead{
+    display: flex;
+  }

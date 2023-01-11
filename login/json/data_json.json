@@ -1,0 +1,38 @@
+{
+
+    "CountryList": {
+
+        "India": {
+
+            "Maharastra": ["Mumbai", "Pune"],
+
+            "Gujrat": ["Ahemdabad", "Rajkot"],
+
+            "Rajasthan": ["Jaipur", "Udaipur"]
+
+        },
+
+        "Australia": {
+
+            "New South Wales": ["Greater Sydney", "Wollongong"],
+
+            "South Australia": ["Murray Bridge", "Port Pirie"],
+
+            "Western Australia": ["Busselton", "Kalgoorlie"]
+
+        },
+
+        "South-Africa": {
+
+            "Eastern Cape": ["Alice", "Butterworth"],
+
+            "Gauteng": ["Randfontein", "Springs"],
+
+            "KwaZulu-Natal": ["Empangeni", "Pinetown"]
+
+        }
+
+    }
+}
+
+

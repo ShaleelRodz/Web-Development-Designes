@@ -1,0 +1,445 @@
+.main-vodeo-container {
+    max-width: 1248px;
+    margin: 0 auto;
+}
+
+.four-video-container {
+    margin: 16px;
+    padding-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 rgba(0, 55, 95, 0.08);
+}
+
+.four-video-title,
+.video-colose-icon h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.four-video-line {
+    border-bottom: 1px solid #e8e7e6;
+    padding: 24px 20px;
+}
+
+.four-video-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px 0px 20px;
+}
+
+.four-video-card:last-child {
+    margin-right: 0px;
+}
+
+.four-video-card {
+    position: relative;
+    margin-right: 20px;
+    border-radius: 4px;
+    border: solid 1px #e8e7e6;
+    background-color: #fff;
+    width: 100%;
+    height: 200px;
+}
+
+.video-thumb-div {
+    position: relative;
+}
+
+.video-overlay-btn {
+    display: flex;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(0, 0, 0, .8);
+    border-radius: 8px;
+    z-index: 2;
+    padding: 9px 20px 9px 18px;
+}
+
+.video-overlay-btn:hover {
+    background-color: #FF0000;
+}
+
+.four-video-card-tite {
+    position: absolute;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    left: 16px;
+    bottom: 16px;
+    padding: 0px;
+    width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.video-colose-icon h1{
+    font-size: 16px;
+    width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.video-thumbnail {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+.four-video-card iframe {
+    width: 100%;
+}
+
+.thumbnail-opecity {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.4);
+}
+
+.dsp-none {
+    display: none;
+}
+
+.dsp-block {
+    display: block;
+}
+
+/* pop-up video */
+.iframe-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background: rgb(0, 0, 0, .8);
+    height: 100%;
+    width: 100%;
+}
+
+.video-colose-icon {
+    display: flex;
+    justify-content: space-between;
+    margin: 27px 16px 26px 16px;
+}
+
+.video-colose-icon h1 {
+    color: #fff;
+}
+
+.video-colose-icon img {
+    cursor: pointer;
+}
+
+/* pop-up video */
+.modal-bg-overlay.iframe-pop-up-main {
+    background-color: rgb(0, 0, 0, 0.9);
+}
+.iframe-pop-up-main .modal-container{
+    padding: 0px 16px;
+}
+
+/********** Modal CSS START **********/
+.modal-bg-overlay {
+    background: rgb(0 0 0 / 50%);
+    position: fixed;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+
+.modal-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-close-icon {
+    position: absolute;
+    top: -45px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: max-content;
+    cursor: pointer;
+}
+
+#iframe-video-container {
+    width: 100vw;
+    height: 100%;
+}
+
+#iframe-video-container iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/********** Modal CSS END **********/
+.iframe-pop-up-main .modal-container{
+    height: 84%;
+}
+.pop-up-close-btn {
+    width: 24px;
+    height: 24px;
+}
+
+/********** Three Component video start******************/
+.three-video-section .four-video-card {
+    max-width: 390px;
+    max-height: 240px;
+    position: relative;
+    border: none;
+}
+
+.three-video-section .four-video-card-tite {
+    font-size: 16px;
+    font-weight: bold;
+    left: 18px;
+    bottom: 14px;
+    padding: 0px;
+}
+
+.three-video-section .video-thumbnail,
+.three-video-section .video-thumb-div,
+.three-video-section .thumbnail-opecity {
+    border-radius: 8px;
+    border: none;
+}
+
+/********** Three Component video End******************/
+
+/********** Two Component video start******************/
+.two-video-section .four-video-card {
+    max-width: 594px;
+    height: 300px;
+    position: relative;
+    border: none;
+}
+
+.two-video-section .video-thumbnail {
+    height: 300px;
+    border-radius: 4px;
+}
+
+.two-video-section .four-video-card-tite {
+    position: absolute;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    left: 18px;
+    bottom: 14px;
+    padding: 0px;
+}
+
+.two-video-section .thumbnail-opecity {
+    border-radius: 4px;
+}
+
+/* youtube */
+
+
+@media screen and (max-width: 768px) {
+    .four-video-container {
+        margin: 4px 4px 0px 4px;
+        box-shadow: none;
+    }
+
+    #iframe-video-container {
+        height: 80%;
+    }
+
+    .thumbnail-opecity {
+        border-radius: 8px;
+    }
+
+    .four-video-section {
+        margin: 0px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .four-video-card:last-child {
+        margin-right: 4px;
+    }
+
+    .four-video-title,
+    .video-colose-icon h1 {
+        font-size: 15px;
+    }
+    .video-colose-icon{
+        margin: 16px;
+    }
+    .video-overlay-btn {
+        padding: 6px 16px;
+        border-radius: 4px;
+    }
+
+    .video-overlay-btn img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .four-video-card {
+        max-width: 48%;
+        margin: 4px;
+    }
+
+    .four-video-line {
+        border: none;
+        padding: 11px 4px 16px 4px;
+    }
+
+    .four-video-card {
+        border: none;
+        position: relative;
+    }
+
+    .four-video-card-tite {
+        position: absolute;
+        bottom: 4px;
+        left: 4px;
+        padding: 0px;
+        font-size: 11px;
+        color: #fff;
+    }
+
+    .pop-up-close-btn {
+        width: 16px;
+        height: 16px;
+    }
+
+    .video-thumbnail {
+        border-radius: 8px;
+    }
+    /* pop-up */
+    .iframe-pop-up-main .modal-container{
+        padding: 0px;
+    }
+
+    /* three component start */
+    .three-video-section {
+        justify-content: space-between;
+        overflow-x: scroll;
+    }
+
+    .three-video-section::-webkit-scrollbar {
+        display: none;
+    }
+
+    .three-video-section {
+        margin: 0px;
+        flex-wrap: nowrap;
+    }
+
+    .three-video-section .four-video-card {
+        min-width: 236px;
+        min-height: 133px;
+    }
+
+    .three-video-section .four-video-card-tite {
+        font-size: 13px;
+    }
+
+    .three-video-section .video-thumbnail,
+    .three-video-section .video-thumb-div {
+        width: 100%;
+        height: 100%;
+    }
+
+    .three-video-section .video-overlay-btn {
+        padding: 7.1px 16.9px 7.1px 15.3px;
+        border-radius: 8px;
+    }
+
+    .three-video-section .video-overlay-btn img {
+        width: 10.7px;
+        height: 13.2px;
+    }
+
+    /********** Three Component video End******************/
+
+    /********** Two Component video start******************/
+    .two-video-section .four-video-card {
+        width: 48%;
+        height: 200px;
+        position: relative;
+    }
+
+    .two-video-section .video-thumbnail {
+        height: 200px;
+    }
+
+    .two-video-section .four-video-card-tite {
+        font-size: 13px;
+        left: 4px;
+        bottom: 4px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .video-thumb-div {
+        width: 168px;
+        height: 100px;
+    }
+
+    #iframe-video-container {
+        height: 50%;
+    }
+
+    .video-thumbnail {
+        height: 100px;
+    }
+
+    .four-video-section {
+        margin: 0px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .four-video-card {
+        max-width: 168px;
+        height: 100px;
+    }
+
+    /* three component start */
+    .three-video-section {
+        justify-content: space-between;
+        margin: 0px;
+        flex-wrap: nowrap;
+    }
+
+    .three-video-section .four-video-card {
+        max-height: 133px;
+    }
+
+    .three-video-section .four-video-card-tite {
+        font-size: 13px;
+    }
+
+    .three-video-section .video-thumbnail {
+        width: 100%;
+    }
+
+    .three-video-section .video-overlay-btn img {
+        width: 10.7px;
+        height: 13.2px;
+    }
+
+    /* three component End */
+
+    /* two component start */
+    .two-video-section .four-video-card {
+        max-width: 168px;
+        max-height: 100px;
+    }
+
+    .two-video-section .video-thumbnail {
+        height: 100px;
+    }
+}

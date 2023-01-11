@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <section class="emi-calc-wrapper">
+        <div class="emi-calc-container">
+            <div class="emi-input-section">
+                <div class="emi-inp-rows">
+                    <div class="emi-inp-row">
+                        <h3 class="slider-heading">Loan Amount</h3>
+                        <div class="range-slider-div">
+                            <div class="range-slider">
+                                <div class="stripe-bg"></div>
+                                <input type="range" min="0" max="100" step="1" value="1" class="emi-slider" id="loan-slider" oninput="loanAmt(this.value)" >
+                            </div>
+                            <div class="slider-inp-field">
+                                <input oninput="loanAmtinp(this.value)" type="text" id="loanAmount" class="slider-input" min="0" max="100" value="10" maxlength="8">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="emi-inp-row">
+                        <h3 class="slider-heading">Interest Rate</h3>
+                        <div class="range-slider-div">
+                            <div class="range-slider">
+                                <div class="stripe-bg"></div>
+                                <input type="range" min="0" max="100" step="1" value="1" class="emi-slider" id="int-rate-slider">
+                            </div>
+                            <div class="slider-inp-field">
+                                <input type="text" id="interest-rate" class="slider-input wd-50" min="0" max="50000000" value="6.7" maxlength="8">
+                                <span class="slider-input-text">p.a.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="emi-inp-row">
+                        <h3 class="slider-heading">Loan Term</h3>
+                        <div class="range-slider-div">
+                            <div class="range-slider">
+                                <div class="stripe-bg"></div>
+                                <input type="range" min="0" max="100" step="1" value="1" class="emi-slider" id="loan-term-slider">
+                            </div>
+                            <div class="slider-inp-field">
+                                <input type="text" id="loan-term" class="slider-input wd-50" min="0" max="50000000" value="20" maxlength="8">
+                                <span class="slider-input-text">Years</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="emi-inp-row">
+                        <p class="monthly-emi">Monthly EMI: <span class="monthly-emi-amt">Rs. 1,000,00</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="emi-output-section">
+                <h3 class="breakup-heading">Breakup of Total Payment</h3>
+                <!-- piechart -->
+                <div class="emi-piechart-div">
+                    <canvas id="emiChart"></canvas>
+                </div>
+                <!-- piechart -->
+                <div class="piechart-details-div">
+                    <div class="pc-row">
+                        <div class="row-categ">
+                            <span class="color-box bg-or"></span>
+                            <span class="row-hg">Principal</span>
+                        </div>
+                        <div class="row-categ-op">
+                            <span>Rs. 1,00,000</span>
+                        </div>
+                    </div>
+                    <div class="pc-row">
+                        <div class="row-categ">
+                            <span class="color-box bg-bl"></span>
+                            <span class="row-hg">Interest Payable</span>
+                        </div>
+                        <div class="row-categ-op">
+                            <span>Rs. 1,00,000</span>
+                        </div>
+                    </div>
+                    <div class="pc-row">
+                        <div class="row-categ">
+                            <span class="row-hg">Total Amount Payable</span>
+                        </div>
+                        <div class="row-categ-op">
+                            <span>Rs. 1,00,000</span>
+                        </div>
+                    </div>
+                    <div class="avl-nw-btn">
+                        <a href="">AVAIL NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js" integrity="sha512-Wt1bJGtlnMtGP0dqNFH1xlkLBNpEodaiQ8ZN5JLA5wpc1sUlk/O5uuOMNgvzddzkpvZ9GLyYNa8w2s7rqiTk5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body{
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #f5eeea;
+    vertical-align: baseline;
+    padding: 100px 0px;
+}
+p,h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+}
+.d-flex{
+    display: flex;
+}
+.d-flex-space{
+    display: flex;
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.Container{
+    background-color: #fff;
+    box-shadow: 0 0 3px #ccc;
+    width: 70%;
+    margin: 0 auto;
+}
+.form{
+    padding: 30px;
+}
+.form-section{
+    padding: 15px;
+    width: 35%;
+}
+.image-section{
+    width: 65%;
+}
+.profile-name{
+    margin: 20px 0px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.profile-img{
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile-img img{
+    width: 100%;
+}
+.sign-up{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+.des-sign{
+    font-size: 15px;
+    color: #a6a6a6eb;
+    margin-bottom: 20px;
+}
+.username-field{
+    background-color: #c8c7c74d;
+    border-radius: 10px;
+    margin: 10px 0px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.username-field img{
+    width: 26px;
+}
+.user-details{
+    flex-direction: column;
+}
+.user-details input{
+    background-color: transparent;
+    border: 0px solid;
+    width: 247px;
+}
+.user-details input:focus,.user-details input:focus{
+    outline: none;
+}
+.user-details label{
+    color: #a6a6a6eb;
+    font-size: 12px;
+}
+.user-details input::placeholder{
+    color: #a6a6a6eb;
+}
+.image-section{
+    position: relative;
+}
+.image-section img{
+    width: 100%;
+    display: block;
+}
+.text-image-section{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.text-image-section h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+.text-image-section h3 span{
+    color: #782e00;
+}
+.submit-btn{
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #2a3537;
+    border: 0px solid;
+    border-radius: 15px;
+    width: 100%;
+}
+.footer-form{
+    margin: 12px 0px;
+}
+.footer-form p{
+    font-size: 12px;
+    text-align: center;
+    color: #a6a6a6eb;
+}
+.footer-form p a{
+    color: #a6a6a6eb;
+}
+
+@media screen and (max-width: 760px){
+    .Container{
+        width: 90%;
+        flex-direction: column;
+    }
+    .form-section{
+        width: 100%;
+    }
+    .user-details input{
+        width: auto;
+    }
+    .header-form{
+        padding: 10px;
+    }
+    .form{
+        padding: 25px;
+    }
+    .image-section{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .text-image-section h3{
+        font-size: 35px;
+    }
+}

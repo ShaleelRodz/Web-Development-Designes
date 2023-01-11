@@ -1,0 +1,844 @@
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* Banner */
+.foneSafeBannerImg {
+    position: absolute;
+    z-index: -1;
+}
+
+.foneSafe_Logo {
+    position: absolute;
+    padding: 10px 25px;
+}
+
+.Secure-your-Phones- {
+    padding: 190px 0 55px;
+    font-size: 19px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.Secure-your-Phones- .text-style-1 {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.pathBlue {
+    width: 140px;
+    height: 5px;
+    border-bottom: solid 4px #b5e0f9;
+    position: absolute;
+    left: 575px;
+    top: 51%;
+}
+
+.Secure-your-Phones- .text-style-1::before {
+    content: '';
+    width: 125px;
+    height: 5px;
+    border-bottom: solid 1px #fff;
+    position: absolute;
+    top: 63%;
+    left: 35%;
+    opacity: 0.2;
+}
+
+.Secure-your-Phones- .text-style-1::after {
+    content: '';
+    width: 125px;
+    height: 5px;
+    border-bottom: solid 1px #fff;
+    position: absolute;
+    top: 63%;
+    right: 35%;
+    opacity: 0.2;
+}
+
+.Secure-your-Phones- h1::after {
+    content: '';
+    width: 326px;
+    height: 5px;
+    border-bottom: solid 1px #fff;
+    position: absolute;
+    top: 87%;
+    left: 37.5%;
+    opacity: 0.2;
+}
+
+.pathGray {
+    width: 125px;
+    height: 5px;
+    border-bottom: solid 1px #fff;
+    position: absolute;
+    top: 57px;
+    right: 250px;
+    opacity: 0.2;
+}
+
+.infoCards {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+
+}
+
+.infoCards .card {
+    /* min-width: 231px;
+    min-height: 136px; */
+    margin: 0 28px 0 0;
+    padding: 14px 35px 31px 38px;
+    border-radius: 16px;
+    box-shadow: 2px 8px 19px 0 rgba(220, 232, 244, 0.42);
+    border: solid 1px #f1f1f1;
+    background-color: #ffffff;
+}
+
+.infoCards .card:hover {
+    transform: scale(1.2);
+    transition: all 0.4s;
+}
+
+.infoCards .card .Path {
+    width: 158px;
+    height: 1px;
+    margin: 5px 0 5px;
+    opacity: 0.20;
+    border: solid 0.5px #57789a;
+}
+
+.infoCards .card h3 {
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #323a5f;
+}
+
+.infoCards .card span {
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #323a5f;
+}
+
+.infoCards .averageSaving sup {
+    /* margin: 6px 102px 16px 0; */
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #323a5f;
+}
+
+.infoCards .card p {
+    margin: 6px 18px 0 16px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #334e69;
+}
+
+/* Banner */
+
+/* About Section */
+.aboutSection {
+    opacity: 0.7;
+    background-image: linear-gradient(110deg, rgba(241, 248, 254, 0.58) 23%, rgba(231, 244, 252, 0.42) 145%);
+    text-align: center;
+    position: relative;
+    bottom: 65px;
+    z-index: -1;
+    padding: 120px 0 60px;
+}
+
+.aboutSection h3 {
+    padding-right: 50px;
+    padding-bottom: 45px;
+    font-size: 18px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.aboutSection .pathBlue {
+    padding-top: 17px;
+    left: 570px;
+}
+
+/* .aboutSection h3::after {
+    content: "";
+    width: 140px;
+    height: 5px;
+    border-bottom: solid 4px #b5e0f9;
+    position: absolute;
+    left: 600px;
+    top: 51%;
+} */
+
+.aboutSection .aboutSection__para {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+}
+
+/* About Section */
+
+/* Feature Section */
+.featureSection {
+    text-align: center;
+    position: relative;
+    padding: 0 0 60px;
+}
+
+.coveredList {
+    text-align: left;
+}
+
+.featureSection h3 {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #323a5f;
+    padding-right: 25px;
+}
+
+.featureSection .pathBlue {
+    top: 12%;
+    left: 572px;
+}
+
+/* .featureSection h3::after {
+    content: "";
+    width: 140px;
+    height: 5px;
+    border-bottom: solid 4px #b5e0f9;
+    position: absolute;
+    top: 30px;
+    right: 549px;
+    opacity: 0.5;
+} */
+
+.featureCardDiv {
+    display: flex;
+    text-align: center;
+    margin-top: 76px;
+    justify-content: center;
+    gap: 100px;
+}
+
+.featureCard {
+    max-width: 105px;
+}
+
+.featureCard img:hover {
+    transform: scale(1.2);
+    transition: all 0.4s;
+}
+
+.featureCard p {
+    margin: 23px 0 0;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    /* color: #334e69; */
+}
+
+/* Feature Section */
+
+/* Covered Section */
+.coveredSection {
+    width: 1280px;
+    min-height: 360px;
+    opacity: 0.7;
+    background-image: linear-gradient(113deg, rgba(241, 248, 254, 0.58) 23%, rgba(231, 244, 252, 0.42) 146%);
+    text-align: center;
+    position: relative;
+}
+
+.coveredSection h3 {
+    padding-top: 15px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    /* color: #323a5f; */
+    padding-right: 22px;
+}
+
+.coveredSection .pathBlue {
+    top: 12%;
+    left: 572px;
+}
+
+/* .coveredSection h3::after {
+    content: "";
+    width: 140px;
+    height: 5px;
+    border-bottom: solid 4px #b5e0f9;
+    position: absolute;
+    top: 42px;
+    right: 557px;
+} */
+
+.coveredList li {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    /* color: #334e69; */
+}
+
+.coveredList ul li::before {
+    content: "\A";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    background: #334e69;
+    /* margin: 11px 0 0px; */
+    opacity: 0.32;
+    z-index: -1;
+    margin-top: 12px;
+    margin-left: -20px;
+}
+
+/* Select CSS */
+.selectBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.select-box {
+    display: flex;
+    width: 335px;
+    flex-direction: column;
+    position: relative;
+}
+
+.select-box .optionContainer {
+    background: #f5f6fa;
+    color: #2f3640;
+    max-height: 0;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.4s;
+    border-radius: 8px;
+    overflow: hidden;
+    order: 1;
+    width: 335px;
+    position: absolute;
+    top: 50px;
+    border: 1px solid #e8e7e6;
+    box-shadow: 0 2px 8px 0 rgba(0, 55, 95, 0.09);
+}
+
+.selected {
+    background: #ffffff;
+    /* border-radius: 8px; */
+    margin-bottom: 8px;
+    position: relative;
+    order: 0;
+    border-radius: 6px;
+    border: solid 1px #d7d7d7;
+}
+
+.selected h4 {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #334e69;
+    padding-right: 235px;
+}
+
+.selected::after {
+    content: "";
+    background: url(/images/path-2.svg);
+    width: 12px;
+    height: 8px;
+    margin: 6px 0 5px 222px;
+    object-fit: contain;
+    position: absolute;
+    right: 20px;
+    top: 11px;
+    transition: all 0.4s;
+}
+
+.select-box .optionContainer.active {
+    max-height: 240px;
+    opacity: 1;
+    overflow-y: scroll;
+}
+
+.select-box .optionContainer.active+.selected::after {
+    transform: rotateX(180deg);
+    top: 10px;
+}
+
+.select-box .optionContainer::-webkit-scrollbar {
+    background: #eef1f5;
+    border-radius: 0 8px 8px 0;
+    width: 8px;
+}
+
+.select-box .optionContainer::-webkit-scrollbar-thumb {
+    width: 4px;
+    height: 85px;
+    border-radius: 3px;
+    background-color: #bcc0c4;
+}
+
+.select-box .option,
+.selected {
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+/* .select-box .option:hover {
+    background: #414b57;
+} */
+
+.select-box label {
+    cursor: pointer;
+}
+
+.select-box .option .radio {
+    display: none;
+}
+
+/* Select CSS */
+
+.coveredList ul {
+    display: flex;
+    justify-content: center;
+    /* padding: 28px 0 0; */
+}
+
+.coveredList ul li {
+    width: 250px;
+    padding: 15px 60px 0;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.5;
+    letter-spacing: normal;
+    /* color: #334e69; */
+    border-bottom: 1px solid rgb(51, 78, 105, 0.2);
+    /* list-style-type: disc; */
+    padding-left: 75px;
+}
+
+.slick-dots {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 16px 0;
+    list-style: none;
+    opacity: 0.4;
+}
+
+.slick-dots li {
+    margin: 0 0.25rem;
+}
+
+.slick-dots li button {
+    display: block;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    border: 1px solid #334e69;
+    border-radius: 100%;
+    text-indent: -9999px;
+}
+
+.slick-dots li.slick-active button {
+    background-color: #334e69;
+}
+
+/* Covered Section */
+
+/* Testimonal Section */
+.testimonialSection {
+    position: relative;
+}
+
+.testimonialSection h3 {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #323a5f;
+    padding: 50px 0 0;
+}
+
+.testimonialSection .pathBlue {
+    top: 25%;
+    left: 565px;
+}
+
+/* .testimonialSection h3::after {
+    content: "";
+    width: 140px;
+    height: 5px;
+    border-bottom: solid 4px #b5e0f9;
+    position: absolute;
+    top: 60px;
+    right: 570px;
+} */
+
+.testimonialSection .testimonialCard .testimonial {
+    margin: 10px 0 65px 1px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #334e69;
+}
+
+.testimonialSection .testimonialCard .testimonialAuthor {
+    margin: 65px 226px 0 0;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #334e69;
+}
+
+.testimonialCard {
+    max-width: 322px;
+    height: 244px;
+    margin: 48px 75px 0 0;
+    padding: 25px 10px 43px 26px;
+    border-radius: 16px;
+    box-shadow: 2px 4px 16px 0 rgba(223, 223, 223, 0.27);
+    border: solid 1px #f3f3f3;
+}
+
+/* Testimonal Section */
+
+/* Contact Section */
+.contactSection {
+    padding: 86px 237px 86px 236.9px;
+    opacity: 0.7;
+    background-image: linear-gradient(107deg, rgba(241, 248, 254, 0.58) 23%, rgba(231, 244, 252, 0.42) 143%);
+    display: flex;
+}
+
+.contactSection .leftSideContact h3 {
+    margin: 0 72px 13px 0;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.contactSection .leftSideContact p {
+    width: 303px;
+    height: 54px;
+    margin: 13px 0 0;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+}
+
+.contactSection .leftSideContact {
+    padding-right: 100px;
+    border-right: solid 0.5px rgb(87, 120, 154, 0.4);
+}
+
+.contactSection .rightSideContact {
+    padding-left: 100px;
+}
+
+.contactSection .rightSideContact h3 {
+    /* margin: 0 206px 13px 0; */
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.contactSection .rightSideContact p {
+    margin: 13px 0 0;
+    font-family: Lato;
+    font-size: 14px;
+    /* font-weight: bold; */
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+}
+
+/* Contact Section */
+
+/* FAQ Section */
+
+/* Select CSS */
+.faqSelectBox {
+    display: flex;
+    justify-content: right;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+}
+
+.faqSelect-box {
+    display: flex;
+    width: 780px;
+    flex-direction: column;
+    position: relative;
+}
+
+.faqSelect-box .faqOptionContainer {
+    background: #ffffff;
+    color: #2f3640;
+    max-height: 0;
+    width: 780px;
+    opacity: 0;
+    transition: all 0.4s;
+    border-radius: 8px;
+    overflow: hidden;
+    order: 1;
+    position: relative;
+    right: 210px;
+    bottom: 9px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.faqSelected {
+    background: #ffffff;
+    margin-bottom: 8px;
+    position: relative;
+    order: 0;
+    border-radius: 4px;
+    border: solid 1px #d7d7d7;
+    right: 210px;
+}
+
+.faqSelected h4 {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #334e69;
+    padding-right: 235px;
+}
+
+.faqSelected::after {
+    content: "";
+    background: url(/images/path-2.svg);
+    width: 12px;
+    height: 8px;
+    margin: 6px 0 5px 222px;
+    object-fit: contain;
+    position: absolute;
+    right: 20px;
+    top: 11px;
+    transition: all 0.4s;
+}
+
+.faqSelect-box .faqOptionContainer.active {
+    /* background-color: blue; */
+    max-height: 520px;
+    opacity: 1;
+    overflow-y: scroll;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-top: none;
+    border: solid 1px #d7d7d7;
+}
+
+.faqSelect-box .faqOptionContainer.active+.faqSelected::after {
+    transform: rotateX(180deg);
+    top: 11px;
+}
+
+.faqSelect-box .faqOptionContainer::-webkit-scrollbar {
+    display: none;
+    background: #eef1f5;
+    border-radius: 0 8px 8px 0;
+    width: 8px;
+}
+
+.faqSelect-box .faqOptionContainer::-webkit-scrollbar-thumb {
+    width: 4px;
+    height: 85px;
+    border-radius: 3px;
+    background-color: #bcc0c4;
+}
+
+.faqSelect-box .option,
+.faqSelected {
+    padding: 12px 24px;
+    cursor: pointer;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+/* .faqSelect-box .option:hover {
+    background: #414b57;
+} */
+
+.faqSelect-box label {
+    cursor: pointer;
+}
+
+.faqSelect-box .option .radio {
+    display: none;
+}
+
+/* Select CSS */
+
+.termAndconditionSection {
+    padding-left: 107px;
+}
+
+.termAndconditionSection a {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #334e69;
+    text-decoration: underline;
+}
+
+.termAndconditionSection h3 {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #334e69;
+    padding-top: 30px;
+}
+
+.termAndconditionSection p {
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    padding-top: 17px;
+    padding-bottom: 40px;
+}
+
+.slick-dots li {
+    width: 10px;
+}
+
+.faqQuestion h2 {
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.faqAnswer {
+    display: none;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    padding-top: 10px;
+}
+
+.dropDownPath {
+    display: none;
+    width: 95%;
+    /* height: 1px; */
+    border-bottom: solid 2px #979797;
+    position: absolute;
+    top: -8px;
+    left: 2.2%;
+    padding-top: 8px;
+}
+/* FAQ Section */
