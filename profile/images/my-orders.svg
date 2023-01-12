@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="My_Orders" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-2{fill:#0074c9}
+        </style>
+    </defs>
+    <path id="Rectangle_5145" fill="none" d="M0 0H24V24H0z"/>
+    <g id="_050-package" transform="translate(3 1.415)">
+        <g id="Group_19582" transform="translate(.507 4.078)">
+            <g id="Group_19581">
+                <path id="Path_30749" d="M17.814 70.942l-3.247 1.723a1.25 1.25 0 0 0-.158.1l8.3 4.33 3.477-1.72z" class="cls-2" transform="translate(-14.409 -70.942)"/>
+            </g>
+        </g>
+        <g id="Group_19584" transform="translate(9.331 6.862)">
+            <g id="Group_19583">
+                <path id="Path_30750" d="M274.082 150.122l-4.154 2.055v2.315a.527.527 0 1 1-1.054 0V152.7l-3.459 1.711v8.378l.033-.015 7.952-4.029a1.232 1.232 0 0 0 .685-1.108v-7.466l-.003-.049z" class="cls-2" transform="translate(-265.415 -150.122)"/>
+            </g>
+        </g>
+        <g id="Group_19586" transform="translate(5.037 1.642)">
+            <g id="Group_19585">
+                <path id="Path_30751" d="M155.553 5.8L147.6 1.773a1.243 1.243 0 0 0-1.125.011l-3.2 1.7 8.415 4.453 4.062-2.009a1.251 1.251 0 0 0-.199-.128z" class="cls-2" transform="translate(-143.275 -1.642)"/>
+            </g>
+        </g>
+        <g id="Group_19588" transform="translate(0 6.827)">
+            <g id="Group_19587">
+                <path id="Path_30752" d="M0 149.117v7.557a1.235 1.235 0 0 0 .664 1.1l7.571 4.018.038.018v-8.378z" class="cls-2" transform="translate(0 -149.117)"/>
+            </g>
+        </g>
+    </g>
+</svg>

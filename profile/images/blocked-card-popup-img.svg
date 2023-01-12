@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120.066" height="83.492" viewBox="0 0 120.066 83.492">
+    <defs>
+        <style>
+            .cls-1{fill:#eac3a4}.cls-2{fill:#005f9e}.cls-3{fill:#0072af}.cls-4{fill:#cadfea}
+        </style>
+    </defs>
+    <g id="Group_2540" transform="translate(-125 -386.757)">
+        <g id="Icon_for_EMI_card" transform="translate(125 404.171)">
+            <path id="Path_3220" d="M34.1 82.074l8.888 17.194 7.577-4.08h6.7l7.289-3.788L51.585 71l-9.617 5.828-3.206 1.749z" class="cls-1" transform="translate(-26.96 -52.303)"/>
+            <g id="Group_2534" transform="translate(13.405)">
+                <path id="Path_3241" d="M43.354 66.228L53.845 58.8s1.457-1.311 2.186-.146c.437.729 1.6 4.371-2.186 7.14-1.02.874-4.371 3.788-4.371 3.788s.874 7.286-.583 11.22L38.4 83.422l1.311-7.286c0 .146 3.206-8.596 3.643-9.908z" class="cls-1" transform="translate(-38.4 -58.169)"/>
+            </g>
+            <g id="Group_2536" transform="translate(85.824 2.358)">
+                <path id="Path_3242" d="M98.008 96.352a3.234 3.234 0 0 0 .729.583l3.934-7.286c-2.331-3.206-8.16-6.994-8.16-6.994l-.146-1.749c4.663-2.477 2.331-6.7 1.894-7.431s-2.04.437-2.04.437L88.1 79.3l1.166 8.6c1.02 1.6 6.702 6.7 8.742 8.452z" class="cls-1" transform="translate(-88.1 -47.931)"/>
+                <path id="Path_3243" d="M95.5 90.694l1.457 6.12h16.174l-1.166-8.014c-1.602.146-14.571 1.6-16.465 1.894z" class="cls-1" transform="translate(-84.717 -40.817)"/>
+                <path id="Path_3244" d="M114.942 101.667s1.749-5.1 1.894-5.1c0-1.894.437-12.385-1.02-18.942l-.437-3.5a2.737 2.737 0 0 0-3.206-2.477 2.674 2.674 0 0 0-2.331 1.894v-.583a3.059 3.059 0 0 0-5.974-.437v-.583a3.011 3.011 0 0 0-3.5-2.623 3.2 3.2 0 0 0-2.623 3.5H97.6l-2.62-14.279a3.174 3.174 0 0 0-6.266 1.02s4.371 26.811 4.517 27.1l1.169 6.85-1.02 5.828c.291.291 4.954 4.808 4.954 4.808l1.894 7.577H116.4z" class="cls-1" transform="translate(-87.84 -55.869)"/>
+                <g id="Group_2535" transform="translate(9.18 50.752)">
+                    <path id="Path_3245" d="M115.988 103.668L113.366 90.7 102 92.449l1.749 11.22z" class="cls-2" transform="translate(-90.926 -90.7)"/>
+                    <path id="Path_3246" d="M107.223 103.12l-1.749-11.22L94.4 93.794l1.02 9.325z" class="cls-3" transform="translate(-94.4 -90.151)"/>
+                </g>
+            </g>
+            <g id="Group_2537" transform="translate(0 25.691)">
+                <path id="Path_3247" d="M43.48 87.748l-3.5-10.491-.58-1.457-10.2 4.517 3.934 11.657z" class="cls-3" transform="translate(-29.2 -75.8)"/>
+                <path id="Path_3248" d="M45.014 92.743L42.246 84 31.9 88.226l3.934 12.094 10.2-4.663z" class="cls-2" transform="translate(-27.966 -72.052)"/>
+            </g>
+        </g>
+        <g id="Group_19400" transform="translate(150.499 386.757)">
+            <g id="Group_2533">
+                <g id="Group_2526">
+                    <path id="Path_3221" d="M46.7 87.971a5.69 5.69 0 0 0 5.683 5.683H121.6a5.69 5.69 0 0 0 5.683-5.683V63.2H46.7z" class="cls-4" transform="translate(-46.7 -37.351)"/>
+                    <path id="Path_3222" fill="#f7f7f7" d="M46.7 47.983v24.771h80.578V47.983c0-3.206-.583-5.683-3.788-5.683H52.528a5.817 5.817 0 0 0-5.828 5.683z" transform="translate(-46.7 -42.3)"/>
+                </g>
+                <g id="Group_2532" transform="translate(4.589 7.227)">
+                    <g id="Group_2528">
+                        <path id="Rectangle_2186" fill="#213257" d="M0 0H71.266V8.132H0z" transform="translate(0 13.483)"/>
+                        <path id="Path_3225" d="M123.406 54.757a5.412 5.412 0 0 0-5.457-5.457H57.757a5.412 5.412 0 0 0-5.457 5.457v8.026h71.266z" class="cls-2" transform="translate(-52.14 -49.3)"/>
+                        <path id="Path_3226" d="M52.2 64.9v16.6c0 3.583 2.408 6.412 5.457 6.412h60.191c3.05 0 5.457-2.829 5.457-6.412V64.9z" class="cls-2" transform="translate(-52.2 -43.284)"/>
+                        <path id="Path_3227" fill="#fb9b27" d="M122.824 76.571a6.727 6.727 0 0 0 .642-2.408V73.2H52.2v.963a4.71 4.71 0 0 0 .642 2.568h69.982z" transform="translate(-52.2 -34.838)"/>
+                    </g>
+                    <path id="Rectangle_2187" d="M0 0H33.867V5.939H0z" class="cls-4" transform="translate(4.173 29.213)"/>
+                    <path id="Rectangle_2188" d="M0 0H14.446V5.939H0z" class="cls-4" transform="translate(53.771 29.213)"/>
+                </g>
+            </g>
+            <text id="EMI_CARD" fill="#fff" font-family="Lato-Regular, Lato" font-size="5px" transform="translate(38.66 14.288)">
+                <tspan x="-11.935" y="0">EMI CARD</tspan>
+            </text>
+        </g>
+        <text id="_123" fill="#fff" font-family="Lato-Regular, Lato" font-size="2px" transform="translate(198.165 424.231)">
+            <tspan x="-1.74" y="0">123</tspan>
+        </text>
+    </g>
+</svg>

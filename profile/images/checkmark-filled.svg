@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Icon_-_Check_Mark_Filled_20" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Path_4010" fill="#42be65" d="M219-1025a10.1 10.1 0 0 0-10 10 10.1 10.1 0 0 0 10 10 10.029 10.029 0 0 0 10-10 9.958 9.958 0 0 0-10-10zm-1.444 13.889l-3.556-3.556 1.111-1.111 2.444 2.444 5.333-5.333 1.111 1.111z" clip-rule="evenodd" transform="translate(-209 1025)"/>
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <path id="Path_4009" d="M192-986.667h746.667V-1040H192z" class="cls-2" transform="translate(-192 1040)"/>
+        </clipPath>
+        <style>
+            .cls-2{fill:#42be65}
+        </style>
+    </defs>
+    <g id="Group_3990" clip-path="url(#clip-path)">
+        <g id="Group_3989" clip-path="url(#clip-path-2)" transform="translate(-18.889 -16.667)">
+            <path id="Path_4008" d="M204-1030h31.111v31.111H204z" class="cls-2" transform="translate(-190.667 1041.111)"/>
+        </g>
+    </g>
+</svg>

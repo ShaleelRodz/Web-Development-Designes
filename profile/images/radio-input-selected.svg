@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Light_Selection_Controls_2._Radio_A._Selected_" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-2{fill:#0074c9}
+        </style>
+    </defs>
+    <g id="Light_Selection_Controls_2._Radio_2_States_">
+        <g id="icon_toggle_radio_button_checked_24px">
+            <path id="Boundary" fill="none" d="M0 0H24V24H0z"/>
+            <path id="_Color" d="M10 20a10 10 0 1 1 10-10 10.011 10.011 0 0 1-10 10zm0-18a8 8 0 1 0 8 8 8.009 8.009 0 0 0-8-8z" class="cls-2" transform="translate(2 2)"/>
+            <circle id="Oval-path" cx="5" cy="5" r="5" class="cls-2" transform="translate(7 7)"/>
+        </g>
+    </g>
+</svg>
